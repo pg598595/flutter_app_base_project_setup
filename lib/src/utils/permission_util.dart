@@ -1,4 +1,3 @@
-import 'package:app_settings/app_settings.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'dialog_utils.dart';
@@ -37,7 +36,7 @@ class PermissionUtils {
             message: Localization.of(context).alertPermissionNotRestricted,
             cancelButtonTitle: Localization.of(context).cancel,
             okButtonTitle: Localization.of(context).ok,
-            okButtonAction: AppSettings.openAppSettings,
+            okButtonAction: (){},
           );
         } else if (isShowMessage) {
           DialogUtils.displayToast(
