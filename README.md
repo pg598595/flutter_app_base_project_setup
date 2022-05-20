@@ -1,3 +1,3 @@
-# Paymish
+# Flutter Base Project
 
-Paymish User/Agent & Merchant Project
+Flutter Base Project with Flavors setup
